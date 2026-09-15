@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samrat | Graphic Designer, Digital Marketer & Specialty Barista/Baker</title>
+  <meta name="description"
+    content="Official portfolio of Samrat — A multidisciplinary creative blending visual brand identity, data-driven digital marketing, and artisanal bakery & barista craftsmanship.">
+  <meta name="keywords"
+    content="Samrat, Graphic Designer, Digital Marketing, Barista, Bakery, Nepal, Portfolio, Brand Identity, Specialty Coffee">
+
+  <!-- Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body>
+
+  <!-- Ambient background glow effects -->
+  <div class="ambient-glow glow-amber" aria-hidden="true"></div>
+  <div class="ambient-glow glow-cyan" aria-hidden="true"></div>
+  <div class="ambient-glow glow-espresso" aria-hidden="true"></div>
+
+  <!-- =========================================================
+       Navigation Header
+       ========================================================= -->
+  <header class="site-header" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" id="logoLink">
+        <span>Samrat</span><span class="logo-dot">.</span>
+        <span class="logo-tagline">Artisan & Creative</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="navMenu">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills & Craft</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#journey" class="nav-link">Journey</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <a href="#contact" class="nav-cta" id="headerContactBtn">
+          <i class="fa-solid fa-paper-plane"></i> Let's Connect
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================
+         HERO SECTION
+         Layout: Centered Avatar -> Introduction Text -> "View My Work" CTA
+         ========================================================= -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-content">
+
+        <!-- Live Status Pill -->
+        <div class="hero-status-badge">
+          <span class="pulse-dot"></span>
+          <span>Available for Freelance, Marketing Campaigns & Specialty Cafe Consultations</span>
+        </div>
+
+        <!-- 1. Centered Avatar (Bich ma Avatar) -->
+        <div class="hero-avatar-wrapper" id="heroAvatar">
+          <div class="hero-avatar-ring"></div>
+          <div class="hero-avatar-inner">
+            <img src="assets/images/avatar.jpg"
+              alt="Samrat Khawas - Graphic Designer, Digital Marketer & Specialty Barista" class="hero-avatar-img"
+              width="200" height="200">
+          </div>
+          <div class="craft-pill-tag">
+            <i class="fa-solid fa-wand-magic-sparkles"></i> <span>Samrat Khawas</span>
+          </div>
+        </div>
+
+        <!-- 2. Introduction Text (Muni Mero Introduction) -->
+        <p class="hero-greeting">Hello, Namaste! I'm Samrat Khawas</p>
+        <h1 class="hero-title">
+          Where <span class="highlight-gradient">Visual Design, Digital Growth</span> & <span
+            class="highlight-gradient">Artisan Craft</span> Converge.
+        </h1>
+        <p class="hero-intro-text">
+          I am a multidisciplinary creator based in Nepal. By day, I design memorable <strong>visual identities &
+            graphic experiences</strong> and architect <strong>data-driven digital marketing campaigns</strong>. Behind
+          the counter, I brew <strong>specialty coffee with precision latte art</strong> and handcraft <strong>artisanal
+            bakery goods</strong>. I bring obsessive attention to detail, creativity, and passion to every single craft.
+        </p>
+
+        <!-- 3. "View My Work" Button (Tesko Muni View My Work) -->
+        <div class="hero-cta-group">
+          <a href="#portfolio" class="btn-primary-work" id="heroViewWorkBtn">
+            <span>View My Work</span>
+            <i class="fa-solid fa-arrow-down-long"></i>
+          </a>
+          <a href="https://wa.me/9779800000000?text=Hi%20Samrat,%20I%20saw%20your%20portfolio%20and%20would%20love%20to%20collaborate!"
+            target="_blank" rel="noopener noreferrer" class="btn-secondary-whatsapp" id="heroWhatsAppBtn">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>Chat on WhatsApp</span>
+          </a>
+        </div>
+
+        <!-- 4. Three Craft Pillars Badges -->
+        <div class="hero-craft-pills">
+          <div class="craft-pill pill-design">
+            <i class="fa-solid fa-palette"></i>
+            <span>Graphic & Brand Design</span>
+          </div>
+          <div class="craft-pill pill-marketing">
+            <i class="fa-solid fa-chart-line"></i>
+            <span>Digital Marketing & Ads</span>
+          </div>
+          <div class="craft-pill pill-bakery">
+            <i class="fa-solid fa-mug-hot"></i>
+            <span>Bakery & Specialty Barista</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         ABOUT SECTION: The Multi-Craft Philosophy
+         ========================================================= -->
+    <section class="section about-section" id="about">
+      <div class="container">
+
+        <div class="about-grid">
+          <!-- Visual Card -->
+          <div class="about-card-visual reveal-on-scroll">
+            <img src="assets/images/bakery_coffee.jpg" alt="Artisan coffee and sourdough bakery craftsmanship">
+            <div class="about-badge-floating">
+              <div class="about-badge-icon">
+                <i class="fa-solid fa-fire-flame-curved"></i>
+              </div>
+              <div class="about-badge-text">
+                <h4>Creativity Fueled By Specialty Coffee</h4>
+                <p>Meticulous attention to ratio, composition & aesthetic flavor</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Content Details -->
+          <div class="about-content-details reveal-on-scroll delay-1">
+            <span class="section-tag">About My Journey</span>
+            <h3>Crafting compelling stories through pixels, strategy, and sensory taste.</h3>
+
+            <p>
+              Many see graphic design, digital marketing, and the culinary art of a barista/baker as distinct worlds.
+              For me, they are harmonious expressions of the exact same principle: <strong>delivering an unforgettable
+                human experience</strong>.
+            </p>
+            <p>
+              Whether I am calibrating espresso grind sizes for balanced extraction, developing social media growth
+              funnels with high return-on-ad-spend (ROAS), or designing cohesive packaging for growing brands, I apply
+              the same uncompromising standards of balance, presentation, and authenticity.
+            </p>
+
+            <div class="about-stats-grid">
+              <div class="stat-box">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Design Projects</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number">30+</div>
+                <div class="stat-label">Marketing Campaigns</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number">2,500+</div>
+                <div class="stat-label">Artisan Brews & Bakes</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SKILLS & CRAFTS MATRIX (3 Pillars)
+         ========================================================= -->
+    <section class="section" id="skills">
+      <div class="container">
+
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">Core Competencies</span>
+          <h2 class="section-title">The Three Pillars of My Craft</h2>
+          <p class="section-subtitle">
+            A balanced ecosystem of creative art direction, scalable digital growth, and handcrafted artisanal
+            gastronomy.
+          </p>
+        </div>
+
+        <div class="skills-pillars-grid">
+
+          <!-- Pillar 1: Graphic Design -->
+          <div class="pillar-card pillar-design reveal-on-scroll delay-1">
+            <div class="pillar-icon-header">
+              <i class="fa-solid fa-bezier-curve"></i>
+            </div>
+            <h3 class="pillar-title">Graphic Design & Branding</h3>
+            <p class="pillar-desc">
+              Transforming concepts into high-impact visuals, premium packaging, brand guidelines, and engaging social
+              creative assets.
+            </p>
+
+            <ul class="pillar-skill-list">
+              <li class="pillar-skill-item">
+                <span><i class="fa-solid fa-check-circle"></i> Brand Identity & Logos</span>
+                <span class="skill-tag-badge">Advanced</span>
+              </li>
+              <li class="pillar-skill-item">
+                <span><i class="fa-solid fa-check-circle"></i> Product Packaging & Labels</span>
+                <span class="skill-tag-badge">Mastery</span>
+              </li>
+              <li class="pillar-skill-item">
+                <span><i class="fa-solid fa-check-circle"></i> Social Media Visual Kits</span>
+                <span class="skill-tag-badge">Expert</span>
+              </li>
+              <li class="pillar-skill-item">
+                <span><i class="fa-solid fa-check-circle"></i> Typography & Layout Design</span>
+                <span class="skill-tag-badge">High Precision</span>
+              </li>
+            </ul>
+
+            <div class="pillar-tools">
+              <span class="tool-chip"><i class="fa-brands fa-figma"></i> Figma</span>
+              <span class="tool-chip">Photoshop</span>
+              <span class="tool-chip">Illustrator</span>
+              <span class="tool-chip">InDesign</span>
+            </div>
+          </div>
+
+          <!-- Pillar 2: Digital Marketing -->
+          <div class="pillar-card pillar-marketing reveal-on-scroll delay-2">
+            <div class="pillar-icon-header">
+              <i class="fa-solid fa-bullhorn"></i>
+            </div>
+            <h3 class="pillar-title">Digital Marketing & Growth</h3>
+            <p class="pillar-desc">
+              Data-backed customer acquisition, organic engagement strategies, and performance advertising that turns
+              clicks into revenue.
+            </p>
+
+            <ul class="pillar-skill-list">
+              <li class="pillar-skill-item">
+                <span><i class="fa-solid fa-check-circle"></i> Meta & Instagram Ads</span>
+                <span class="skill-tag-badge">High ROAS</span>
+              </li>
+              <li class="pillar-skill-item">
+                <span><i class="fa-solid fa-check-circle"></i> Social Media Strategy</span>
+                <span class="skill-tag-badge">Viral Growth</span>
+              </li>
+              <li class="pillar-skill-item">
+                <span><i class="fa-solid fa-check-circle"></i> Content & Copywriting</span>
+                <span class="skill-tag-badge">Engaging</span>
+              </li>
+              <li class="pillar-skill-item">
+                <span><i class="fa-solid fa-check-circle"></i> Analytics & Audience Retargeting</span>
+                <span class="skill-tag-badge">Data-Driven</span>
+              </li>
+            </ul>
+
+            <div class="pillar-tools">
+              <span class="tool-chip"><i class="fa-brands fa-meta"></i> Meta Ads</span>
+              <span class="tool-chip"><i class="fa-brands fa-google"></i> Google Ads</span>
+              <span class="tool-chip">Canva Pro</span>
+              <span class="tool-chip">Analytics</span>
+            </div>
+          </div>
+
+          <!-- Pillar 3: Bakery & Barista Craft -->
+          <div class="pillar-card pillar-barista reveal-on-scroll delay-3">
+            <div class="pillar-icon-header">
+              <i class="fa-solid fa-coffee"></i>
+            </div>
+            <h3 class="pillar-title">Bakery & Barista Arts</h3>
+            <p class="pillar-desc">
+              Specialty third-wave coffee brewing, delicate free-pour latte art, slow-fermented sourdough baking, and
+              cafe hospitality.
+            </p>
+
+            <ul class="pillar-skill-list">
+              <li class="pillar-skill-item">
+                <span><i class="fa-solid fa-check-circle"></i> Espresso Extraction & Dialing In</span>
+                <span class="skill-tag-badge">Specialty</span>
+              </li>
+              <li class="pillar-skill-item">
+                <span><i class="fa-solid fa-check-circle"></i> Rosetta Latte Art</span>
+                <span class="skill-tag-badge">Artisan</span>
+              </li>
+              <li class="pillar-skill-item">
+                <span><i class="fa-solid fa-check-circle"></i> Artisan Sourdough & Croissants</span>
+                <span class="skill-tag-badge">Handmade</span>
+              </li>
+              <li class="pillar-skill-item">
+                <span><i class="fa-solid fa-check-circle"></i> V60 & Manual Pour-Over Methods</span>
+                <span class="skill-tag-badge">Sensory</span>
+              </li>
+            </ul>
+
+            <div class="pillar-tools">
+              <span class="tool-chip">La Marzocco</span>
+              <span class="tool-chip">Hario V60</span>
+              <span class="tool-chip">Sourdough Culturing</span>
+              <span class="tool-chip">Roast Profiling</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         PORTFOLIO SHOWCASE SECTION (Interactive Filter & Lightbox)
+         ========================================================= -->
+    <section class="section portfolio-section" id="portfolio">
+      <div class="container">
+
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">Featured Works</span>
+          <h2 class="section-title">Selected Projects & Creations</h2>
+          <p class="section-subtitle">
+            Explore a curated selection of visual branding, performance marketing initiatives, and culinary coffee
+            creations.
+          </p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="portfolio-filters reveal-on-scroll">
+          <button class="filter-btn active" data-filter="all">All Works</button>
+          <button class="filter-btn" data-filter="design">Graphic Design</button>
+          <button class="filter-btn" data-filter="marketing">Digital Marketing</button>
+          <button class="filter-btn" data-filter="bakery">Bakery & Barista</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="portfolio-grid" id="portfolioGrid">
+
+          <!-- Item 1: Design -->
+          <div class="portfolio-card reveal-on-scroll" data-category="design" data-id="1">
+            <div class="portfolio-img-wrap">
+              <span class="portfolio-category-badge badge-design">Graphic Design</span>
+              <img src="assets/images/graphic_design.jpg" alt="Aether Roasters Complete Brand Identity Suite">
+              <div class="portfolio-overlay-action">
+                <span class="view-project-btn"><i class="fa-solid fa-eye"></i> View Case Study</span>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3 class="portfolio-title">Aether Roasters - Visual Identity & Stationery</h3>
+              <p class="portfolio-desc">
+                Comprehensive brand identity including luxury dark foil business cards, letterheads, typography
+                hierarchy, and branded stationery kit.
+              </p>
+              <div class="portfolio-meta">
+                <span>Branding & Print Design</span>
+                <span>Photoshop / Illustrator</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Bakery / Barista -->
+          <div class="portfolio-card reveal-on-scroll delay-1" data-category="bakery" data-id="2">
+            <div class="portfolio-img-wrap">
+              <span class="portfolio-category-badge badge-barista">Bakery & Barista</span>
+              <img src="assets/images/bakery_coffee.jpg" alt="Swan Latte Art & Golden Butter Croissants">
+              <div class="portfolio-overlay-action">
+                <span class="view-project-btn"><i class="fa-solid fa-eye"></i> View Creation</span>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3 class="portfolio-title">Artisan Swan Latte Art & Fresh Sourdough Pastries</h3>
+              <p class="portfolio-desc">
+                Microfoam texturing showcasing delicate swan free-pour latte art paired with 72-hour slow-fermented
+                French croissants and rustic country loaves.
+              </p>
+              <div class="portfolio-meta">
+                <span>Specialty Coffee & Bakes</span>
+                <span>Third Wave Extraction</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: Marketing -->
+          <div class="portfolio-card reveal-on-scroll delay-2" data-category="marketing" data-id="3">
+            <div class="portfolio-img-wrap">
+              <span class="portfolio-category-badge badge-marketing">Digital Marketing</span>
+              <img src="assets/images/digital_marketing.jpg" alt="Social Media Growth Strategy & Ad Campaigns">
+              <div class="portfolio-overlay-action">
+                <span class="view-project-btn"><i class="fa-solid fa-eye"></i> View Campaign</span>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3 class="portfolio-title">Omnichannel Social Media Growth & Paid Funnel</h3>
+              <p class="portfolio-desc">
+                Engineered full-funnel digital campaign generating +125K targeted followers and 4.8% engagement rate
+                through viral Reels and high-CTR Meta ads.
+              </p>
+              <div class="portfolio-meta">
+                <span>Meta Ads / Strategy</span>
+                <span>+320% Revenue Boost</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4: Design -->
+          <div class="portfolio-card reveal-on-scroll" data-category="design" data-id="4">
+            <div class="portfolio-img-wrap">
+              <span class="portfolio-category-badge badge-design">Graphic Design</span>
+              <img src="assets/images/packaging_branding.jpg" alt="Origin Specialty Coffee & Artisan Bakery Packaging">
+              <div class="portfolio-overlay-action">
+                <span class="view-project-btn"><i class="fa-solid fa-eye"></i> View Packaging</span>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3 class="portfolio-title">Origin Coffee & Bakery - Sustainable Kraft Packaging</h3>
+              <p class="portfolio-desc">
+                Minimalist kraft pouch packaging system with embossed gold foil details for single-origin Ethiopian
+                beans and fresh sourdough breads.
+              </p>
+              <div class="portfolio-meta">
+                <span>Product Packaging</span>
+                <span>Print & Finish</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 5: Bakery / Barista -->
+          <div class="portfolio-card reveal-on-scroll delay-1" data-category="bakery" data-id="5">
+            <div class="portfolio-img-wrap">
+              <span class="portfolio-category-badge badge-barista">Bakery & Barista</span>
+              <img src="assets/images/specialty_pour_over.jpg" alt="Manual V60 Pour-Over Coffee Brewing Bar">
+              <div class="portfolio-overlay-action">
+                <span class="view-project-btn"><i class="fa-solid fa-eye"></i> View Technique</span>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3 class="portfolio-title">Manual V60 Pour-Over & Ethiopian Single Origin Dial-in</h3>
+              <p class="portfolio-desc">
+                Precision flow-rate pour-over brewing utilizing copper gooseneck kettles to highlight delicate floral
+                and blueberry tasting notes.
+              </p>
+              <div class="portfolio-meta">
+                <span>Manual Brewing</span>
+                <span>Hario V60 Dial-in</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         JOURNEY & TIMELINE SECTION
+         ========================================================= -->
+    <section class="section" id="journey">
+      <div class="container">
+
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">Experience & Milestones</span>
+          <h2 class="section-title">My Creative Journey</h2>
+          <p class="section-subtitle">
+            How passion evolved into multifaceted professional expertise across creative agencies, marketing teams, and
+            specialty cafes.
+          </p>
+        </div>
+
+        <div class="timeline-wrap">
+
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item reveal-on-scroll">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">2026 - Present</span>
+              <h3 class="timeline-role">Specialty Barista & Artisan Baker</h3>
+              <div class="timeline-company">Artisanal Cafe & Bakery, Kathmandu</div>
+              <p class="timeline-details">
+                Leading espresso dialing, signature latte art workshops, daily artisanal sourdough baking, and menu
+                curation while enhancing in-house aesthetic presentation.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item reveal-on-scroll delay-1">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">2026 - Present</span>
+              <h3 class="timeline-role">Digital Marketing & Growth Strategist</h3>
+              <div class="timeline-company">Freelance & Agency Collaborations</div>
+              <p class="timeline-details">
+                Architecting high-converting Meta and Instagram ad campaigns, organic content strategies, and social
+                media branding for local and international brands.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3 -->
+          <div class="timeline-item reveal-on-scroll delay-2">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">2026 - Present</span>
+              <h3 class="timeline-role">Visual & Graphic Designer</h3>
+              <div class="timeline-company">Creative Studios & Direct Clients</div>
+              <p class="timeline-details">
+                Crafting visual brand identities, logo systems, commercial product packaging, promotional posters, and
+                UI design mockups that communicate elegance and impact.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         CONTACT & FOOTER SECTION
+         Includes: Phone, Direct WhatsApp, Instagram, Facebook Links
+         ========================================================= -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Have a Project or Want to Say Hi?</h2>
+          <p class="section-subtitle">
+            Whether you need bespoke graphic design, a high-converting digital marketing campaign, or specialty cafe &
+            bakery consultation, I'm just a message away.
+          </p>
+        </div>
+
+        <div class="contact-layout">
+
+          <!-- Contact Info & Social Hub -->
+          <div class="contact-info-card reveal-on-scroll">
+            <h3>Direct Contact & Channels</h3>
+            <p>
+              Feel free to call me directly, start a WhatsApp chat, or connect across social media. I typically respond
+              within a few hours!
+            </p>
+
+            <div class="contact-channels">
+              <!-- Phone -->
+              <div class="contact-channel-item">
+              <div class="channel-icon icon-phone">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="channel-details">
+                <span class="channel-label">Contact Number</span>
+                <a href="tel:+9779814368101" class="channel-value" id="phoneLink">+977 9814368101 </a>
+              </div>
+              <button class="channel-action-btn"
+                onclick="copyContact('+977 9814368101', 'Phone Number copied to clipboard!')">
+                <i class="fa-regular fa-copy"></i> Copy
+              </button>
+            </div>
+
+            <!-- WhatsApp -->
+            <div class="contact-channel-item">
+              <div class="channel-icon icon-whatsapp">
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+              <div class="channel-details">
+                <span class="channel-label">WhatsApp Direct Chat</span>
+                <a href="https://wa.me/9779814368101?text=Hello%20Samrat,%20I%20would%20like%20to%20discuss%20a%20project!"
+                  target="_blank" rel="noopener noreferrer" class="channel-value" id="whatsappLink">
+                  Chat on WhatsApp
+                </a>
+              </div>
+              <a href="https://wa.me/9779814368101?text=Hello%20Samrat,%20I%20would%20like%20to%20discuss%20a%20project!"
+                target="_blank" rel="noopener noreferrer" class="channel-action-btn" style="text-decoration:none;">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Open
+              </a>
+            </div>
+
+            <!-- Location -->
+            <div class="contact-channel-item">
+              <div class="channel-icon icon-location">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="channel-details">
+                <span class="channel-label">Location</span>
+                <span class="channel-value">Lalitpur, Nepal</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Social Media Hub -->
+          <div class="social-hub">
+            <h4 class="social-hub-title">Follow & Connect On Social Media</h4>
+            <div class="social-links-row">
+              <!-- WhatsApp Link -->
+              <a href="https://wa.me/9779814368101?text=Namaste%20Samrat!" target="_blank" rel="noopener noreferrer"
+                class="social-btn btn-wa" id="footerWaBtn">
+                <i class="fa-brands fa-whatsapp"></i> WhatsApp
+              </a>
+              <!-- Instagram Link -->
+              <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" class="social-btn btn-insta"
+                id="footerInstaBtn">
+                <i class="fa-brands fa-instagram"></i> Instagram
+              </a>
+              <!-- Facebook Link -->
+              <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" class="social-btn btn-fb"
+                id="footerFbBtn">
+                <i class="fa-brands fa-facebook"></i> Facebook
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="site-footer-bottom">
+        <div class="footer-copy">
+          &copy; <span id="currentYear">2026</span> <strong>Samrat</strong>. All Rights Reserved. Crafted with
+          Passion, Pixels & Coffee.
+        </div>
+        <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" aria-label="Back to top">
+          <i class="fa-solid fa-arrow-up"></i> Back to Top
+        </button>
+      </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================
+       PROJECT DETAILS MODAL (Lightbox)
+       ========================================================= -->
+  <div class="project-modal" id="projectModal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-img-wrap">
+        <img src="" alt="Project Image" id="modalImg">
+      </div>
+      <div class="modal-body">
+        <span class="modal-category" id="modalCategory">Category</span>
+        <h2 class="modal-title" id="modalTitle">Project Title</h2>
+        <p class="modal-description" id="modalDesc">Detailed description of the project.</p>
+        <div class="modal-highlights" id="modalTags"></div>
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+          <a href="https://wa.me/9779800000000?text=Hi%20Samrat,%20I%20am%20interested%20in%20a%20project%20similar%20to%20what%20I%20saw%20in%20your%20portfolio!"
+            target="_blank" class="nav-cta" style="display: inline-flex;">
+            <i class="fa-brands fa-whatsapp"></i> Inquire About This Craft
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Feedback -->
+  <div class="toast-msg" id="toastMsg">
+    <i class="fa-solid fa-circle-check" style="color: #4ade80;"></i>
+    <span id="toastText">Action successful!</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
