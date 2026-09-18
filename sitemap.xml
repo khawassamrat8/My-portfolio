@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://samratkhawas.com.np/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://samratkhawas.com.np/assets/images/avatar.jpg</image:loc>
+      <image:title>Samrat Khawas - Graphic Designer, Digital Marketer, Photo Editor &amp; Barista</image:title>
+      <image:caption>Official Portfolio of Samrat Khawas based in Imadol, Lalitpur, Nepal</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://samratkhawas.com.np/assets/images/graphic_design.jpg</image:loc>
+      <image:title>Graphic Design &amp; Brand Identity by Samrat Khawas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://samratkhawas.com.np/assets/images/digital_marketing.jpg</image:loc>
+      <image:title>Digital Marketing &amp; Meta Ads by Samrat Khawas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://samratkhawas.com.np/assets/images/bakery_coffee.jpg</image:loc>
+      <image:title>Specialty Coffee, Latte Art &amp; Bakery by Samrat Khawas</image:title>
+    </image:image>
+  </url>
+</urlset>
